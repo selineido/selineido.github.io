@@ -4,7 +4,7 @@ $trimary-color: #8c7b75;
 $white: #fff;
 $largefs: 30px;
 $mediumfs: 25px;
-$smallfs: 15px;
+$smallfs: 20px;
 $ff: Montserrat,
 sans-serif;
 
@@ -26,6 +26,12 @@ body {
     border-radius: 0;
     font-family: $ff;
     height: 100px;
+}
+
+.navbar-logo {
+    color: $white;
+    padding: 30px;
+
 }
 
 .navbar-toggle {
@@ -71,11 +77,14 @@ body {
     }
 }
 
+
+
 .main {
     p {
         font-size: $largefs;
         font-weight: 500;
         color: $primary-color;
+
     }
 }
 
@@ -85,7 +94,7 @@ body {
     h2 {
         color: $primary-color;
         margin: 40px;
-        padding: 40px;
+        padding: 10px;
         text-align: center;
         font-family: $ff bold;
     }
@@ -97,14 +106,107 @@ body {
     h1 {
         color: $primary-color;
         margin: 40px;
-        padding: 40px;
         text-align: center;
         font-family: $ff bold;
+        letter-spacing: 4px;
+
     }
+
 }
 
 .panel-footer {
     color: $primary-color;
     text-align: center;
     background-color: $white;
+    letter-spacing: 4px;
+    font-size: $smallfs;
+}
+
+.col-sm-4 {
+    h3 {
+        color: $primary-color;
+        text-align: center;
+        font-size: $smallfs;
+        padding: 20px;
+    }
+}
+
+/* About */
+
+.bg-grey {
+    background-color: #f8f8f8;
+}
+
+.col-sm-8 {
+    h2 {
+        color: $primary-color;
+        padding-top: 100px;
+        padding-left: 40px;
+        font-size: $largefs;
+    }
+
+    h5 {
+        color: $trimary-color;
+        font-size: $smallfs;
+        margin-left: 30px;
+        padding-right: 20px;
+        padding: 10px;
+
+    }
+}
+
+/* photography */
+
+.white {
+    background-color: $white;
+}
+
+/*contact */
+
+.row {
+    padding-top: 20px;
+}
+
+.well {
+    background-color: $white;
+    padding: 30px;
+}
+
+.well {
+    h2 {
+        color: $primary-color;
+        text-align: center;
+        font-size: $largefs;
+    }
+    p {
+        color: $primary-color;
+        text-align: center;
+        font-size: $mediumfs bold;
+    }
+    h4 {
+        color: $primary-color;
+        text-align: center;
+        font-size: $smallfs;
+    }
+}
+
+.form-control {
+    background-color: #f2f2f2;
+    border-color: transparent;
+}
+
+.btn {
+    background-color: $secondary-color;
+    border-color: transparent;
+    box-shadow: 1px 5px 3px #e2baba;
+    width: 150px;
+}
+
+/* footer */
+
+.brown {
+    background-color: $trimary-color;
+    height: 100px;
+    color: $white;
+    padding-top: 20px;
 }
