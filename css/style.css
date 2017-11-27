@@ -1,0 +1,33 @@
+/* navigation */
+body { background: #efdcd5; }
+
+.navbar { margin-bottom: 0; background-color: #8c7b75; z-index: 9999; border: 0; font-size: 15px !important; line-height: 1.42857143 !important; letter-spacing: 4px; border-radius: 0; font-family: Montserrat, sans-serif; height: 100px; }
+
+.navbar-toggle { background-color: #fff; }
+
+.collapse { background-color: #8c7b75; }
+
+.navbar-brand { font-size: 15px; }
+
+.navbar li a, .navbar .navbar-brand { color: #fff !important; }
+
+.navbar-nav li a:hover, .navbar-nav li.active a { color: #8c7b75 !important; background-color: #fff !important; }
+
+.navbar-default .navbar-toggle { border-color: #fff; color: #efdcd5 !important; }
+
+/* Jumbotron */
+.jumbotron { background-image: url(../images/mainimage.jpg); height: 900px; }
+
+.main h1 { margin-top: 300px; color: #6b5f5b; }
+
+.main p { font-size: 30px; font-weight: 500; color: #6b5f5b; }
+
+/* Para */
+.intro h2 { color: #6b5f5b; margin: 40px; padding: 40px; text-align: center; font-family: Montserrat, sans-serif bold; }
+
+/* 3 Projects */
+.projects h1 { color: #6b5f5b; margin: 40px; padding: 40px; text-align: center; font-family: Montserrat, sans-serif bold; }
+
+.panel-footer { color: #6b5f5b; text-align: center; background-color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
