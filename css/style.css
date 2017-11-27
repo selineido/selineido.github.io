@@ -1,13 +1,15 @@
 /* navigation */
 body { background: #efdcd5; }
 
-.navbar { margin-bottom: 0; background-color: #8c7b75; z-index: 9999; border: 0; font-size: 15px !important; line-height: 1.42857143 !important; letter-spacing: 4px; border-radius: 0; font-family: Montserrat, sans-serif; height: 100px; }
+.navbar { margin-bottom: 0; background-color: #8c7b75; z-index: 9999; border: 0; font-size: 20px !important; line-height: 1.42857143 !important; letter-spacing: 4px; border-radius: 0; font-family: Montserrat, sans-serif; height: 100px; }
+
+.navbar-logo { color: #fff; padding: 30px; }
 
 .navbar-toggle { background-color: #fff; }
 
 .collapse { background-color: #8c7b75; }
 
-.navbar-brand { font-size: 15px; }
+.navbar-brand { font-size: 20px; }
 
 .navbar li a, .navbar .navbar-brand { color: #fff !important; }
 
@@ -23,11 +25,38 @@ body { background: #efdcd5; }
 .main p { font-size: 30px; font-weight: 500; color: #6b5f5b; }
 
 /* Para */
-.intro h2 { color: #6b5f5b; margin: 40px; padding: 40px; text-align: center; font-family: Montserrat, sans-serif bold; }
+.intro h2 { color: #6b5f5b; margin: 40px; padding: 10px; text-align: center; font-family: Montserrat, sans-serif bold; }
 
 /* 3 Projects */
-.projects h1 { color: #6b5f5b; margin: 40px; padding: 40px; text-align: center; font-family: Montserrat, sans-serif bold; }
+.projects h1 { color: #6b5f5b; margin: 40px; text-align: center; font-family: Montserrat, sans-serif bold; letter-spacing: 4px; }
 
-.panel-footer { color: #6b5f5b; text-align: center; background-color: #fff; }
+.panel-footer { color: #6b5f5b; text-align: center; background-color: #fff; letter-spacing: 4px; font-size: 20px; }
+
+.col-sm-4 h3 { color: #6b5f5b; text-align: center; font-size: 20px; padding: 20px; }
+
+/* About */
+.bg-grey { background-color: #f8f8f8; }
+
+.col-sm-8 h2 { color: #6b5f5b; padding-top: 100px; padding-left: 40px; font-size: 30px; }
+.col-sm-8 h5 { color: #8c7b75; font-size: 20px; margin-left: 30px; padding-right: 20px; padding: 10px; }
+
+/* photography */
+.white { background-color: #fff; }
+
+/*contact */
+.row { padding-top: 20px; }
+
+.well { background-color: #fff; padding: 30px; }
+
+.well h2 { color: #6b5f5b; text-align: center; font-size: 30px; }
+.well p { color: #6b5f5b; text-align: center; font-size: 25px bold; }
+.well h4 { color: #6b5f5b; text-align: center; font-size: 20px; }
+
+.form-control { background-color: #f2f2f2; border-color: transparent; }
+
+.btn { background-color: #efdcd5; border-color: transparent; box-shadow: 1px 5px 3px #e2baba; width: 150px; }
+
+/* footer */
+.brown { background-color: #8c7b75; height: 100px; color: #fff; padding-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */
